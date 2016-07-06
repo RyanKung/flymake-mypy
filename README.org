@@ -1,0 +1,18 @@
+* flymake-pytyping.el
+
+--------
+
+This project is a plugin for Emacs to work in conjunction with flymake.el it displays any flymake error for the current line on the minibuffer
+
+It's allowed you to do typing checking base on the `mypy`, which was renamed as buildin `typing` module on `Python 3.5`
+
+* INSTALLATION
+
+'''
+pip3 install mypy-lang
+
+then:
+
+
+(eval-after-load 'flymake '(require 'flymake-pytyping))
+'''
