@@ -1,4 +1,4 @@
-* flymake-pytyping.el
+* flymake-mypy.el
 
 --------
 
@@ -13,7 +13,7 @@ It's allowed you to do typing checking base on the `mypy`, which was renamed as 
 
     then:
 
-    (eval-after-load 'flymake '(require 'flymake-pytyping))
+    (eval-after-load 'flymake '(require 'flymake-mypy))
     #+END_SRC
 
 * SCREENSHOTS

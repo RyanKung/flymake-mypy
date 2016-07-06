@@ -1,4 +1,4 @@
-;;; flymake-pytyping.el --- mypy plugin for flymake
+;;; flymake-mypy.el --- mypy plugin for flymake
 ;;
 ;; Author: Ryan Kung <ryankung@ieee.org>
 ;; Keywords: lamguages mode flymake
@@ -35,5 +35,5 @@
 (when (load "flymake" t)
   (add-to-list 'flymake-allowed-file-name-masks '("\\.py\\'" flymake-mypy-init))
   )
-(provide 'flymake-pytyping)
-;;; flymake-pytyping.el ends here
+(provide 'flymake-mypy)
+;;; flymake-mypy.el ends here
