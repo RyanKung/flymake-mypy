@@ -7,7 +7,7 @@
 
 
 ;;; Commentary:
-;; Using `mypy' as flymake backend for type checking
+;; Use `mypy' as flymake backend for type checking
 ;; support `typing' on `Python-3.5' or `Mypy' style typing comment
 ;; on `Python-2'
 ;; More details on `https://github.com/python/mypy'
