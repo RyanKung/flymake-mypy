@@ -15,3 +15,9 @@ It's allowed you to do typing checking base on the `mypy`, which was renamed as 
 
     (eval-after-load 'flymake '(require 'flymake-pytyping))
     #+END_SRC
+
+* SCREENSHOTS
+
+     #+CAPTION: Support both Python3 and Python2 style code
+     #+NAME:   fig:Screenshot1
+     [[https://raw.githubusercontent.com/RyanKung/flymake-pytyping/master/screenshots/ss1.png]]
