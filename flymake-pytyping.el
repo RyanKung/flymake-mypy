@@ -35,5 +35,5 @@
 (when (load "flymake" t)
   (add-to-list 'flymake-allowed-file-name-masks '("\\.py\\'" flymake-mypy-init))
   )
-(provide 'mypy)
+(provide 'flymake-pytyping)
 ;;; flymake-pytyping.el ends here

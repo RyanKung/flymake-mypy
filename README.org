@@ -8,11 +8,10 @@ It's allowed you to do typing checking base on the `mypy`, which was renamed as 
 
 * INSTALLATION
 
-'''
-pip3 install mypy-lang
+    #+BEGIN_SRC emacs-lisp
+    pip3 install mypy-lang
 
-then:
+    then:
 
-
-(eval-after-load 'flymake '(require 'flymake-pytyping))
-'''
+    (eval-after-load 'flymake '(require 'flymake-pytyping))
+    #+END_SRC
